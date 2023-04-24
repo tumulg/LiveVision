@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 75%;
+    background-image: url(images/background_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(0, 20%, 50%);
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo{
+    padding: 15px;
+    cursor: pointer;
+}
+.pflogo{
+    padding: 15px;
+    cursor: pointer;
+}
+.navbar ul li{
+    padding-top: 15px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+    align-items: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li:after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.footcontent li a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    display: flex;
+    background-color: #1F1F1F;
+    padding: 50px;
+}
+.sec-shadow{
+    box-shadow: 0px 20px 40px rgba(0,0,0,2); 
+}
+.section{
+    padding: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+
+.image-section{
+    float: right;
+    width: 60%;
+}
+
+.image-section1{
+    float: right;
+    width: 40%;
+}
+
+.image-section1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+}
+
+.content-section .ab-content h3{
+    margin-top: 20px;
+    color: black;
+}
+
+.content-section .ab-content p{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.content-section .ab-content .button a{
+    background-color: black;
+    border-radius: 25px;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: wheat;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+}
+
+.content-section .ab-content .button a:hover {
+    background-color: #e1162c;
+    color: #1F1F1F;
+}
+
+.content-section .social{
+    margin-top: 40px;
+}
+
+.content-section .social i{
+    color: #1F1F1F;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+
+.content-section .social i:hover{
+    color: #e1162c;
+}
